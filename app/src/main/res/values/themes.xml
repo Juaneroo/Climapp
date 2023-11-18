@@ -2,6 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Climapp" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimaryDark">@color/black_1</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/cloudy_sunny</item>
+
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
